@@ -1,0 +1,74 @@
+.login__body {
+    background-image: url(../Assets/Background/Background\ 1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--tertiaryColor);
+    padding: 2em;
+    border: 5px solid var(--tertiaryColor-hover);
+    border-radius: 1em;
+    width: 30%;
+}
+
+.login__title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.login__image {
+    margin: 2em 0;
+    width: 30%;
+    text-align: center;
+    border: 3px solid var(--primaryColor);
+    border-radius: 999px;
+}
+
+.inputUser {
+    height: 4rem;
+    width: 80%;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    border:none;
+    font-size:20px;
+    padding-left: 1em;
+}
+
+.inputPassword {
+    height: 4rem;
+    width: 80%;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    border:none;
+    font-size:20px;
+    padding-left: 1em;
+}
+
+.login__footer {
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+    gap: 15em;
+}
+
+.register__link {
+    text-decoration:underline;
+    color: black;
+}
+
+.Login__button {
+    background-color: #CEDDE0;
+    margin-top: 1em;
+    padding: 1em 2em;
+    color: var(--font-color-1);
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 0.5em;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rammetto+One&display=swap');
+@import url(header.css);
+@import url(slider.css);
+@import url(scheduler.css);
+@import url(about-us.css);
+@import url(subscription-plans.css);
+@import url(info.css);
+@import url(footer.css);
+@import url(user.css);
+@import url(article.css);
+@import url(login.css);
+@import url(register.css);
+
+
+:root {
+    --bg-color-main: rgb(255, 255, 255);
+
+    --bg-color-1: #BCBCBC;
+    --bg-color-2: #AE8888;
+    --bg-color-3: #E3D192;
+    --bg-color-4: #7AA068;
+    --bg-color-5: #E3CFCF;
+    --bg-color-6: #C5B9B9;
+    --bg-color-7: #292727;
+    --bg-color-8: #D9D9D9;
+    --bg-color-9: #A54A4A;
+    --bg-color-10: #636262;
+
+    --font-color-1: black;
+    --font-color-2: rgb(255, 255, 255);
+
+    --primaryColor: #9FBDBB;
+    --secondaryColor:#B19AED;
+    --tertiaryColor:#78ABA8;
+
+    --primaryColor-hover: #71f0e7;
+    --secondaryColor-hover:#8a5cfd;
+    --tertiaryColor-hover:#4aa39d;
+    --tertiaryColor-dark:#3c7672;
+
+
+    --titles-font:"Rammetto One", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:var(--bg-color-main);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: var(--font-color-1);
+}
+
+.title-header {
+    font-size: 64px;   
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: var(--titles-font);
+}
+
+.contact-whats {
+    position: fixed;
+    bottom: 5%;
+    right: 1%;
+    text-align: end;
+    height: 120px;
+    width: 120px;
+}
+
+.contact-whats__img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 999px;
+}
+
+
+

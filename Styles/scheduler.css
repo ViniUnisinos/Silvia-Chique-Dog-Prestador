@@ -1,0 +1,283 @@
+.scheduler {
+    padding: 5em 5em;
+    
+    background-image: url(../Assets/Background/Background\ 1.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scheduler__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.scheduler__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    width: 50%;
+}
+
+.content__title {
+    font-family: var(--titles-font);
+    font-size: 64px;
+}
+
+.content__text {
+    width: 85%;
+    font-size: 40px;
+}
+
+.content__button {
+    width: 60%;
+    padding: 1em 0;
+    border-radius: 2em;
+    background-color: var(--secondaryColor);
+    color: var(--font-color-1);
+    text-decoration: none;
+    text-align: center;
+    font-size: 38px;
+}
+
+.content__button:hover {
+    background-color: var(--secondaryColor-hover);
+}
+
+.scheduler-body {
+    height: 100vh;
+}
+
+.scheduler__image {
+    background-color: var(--bg-color-8);
+    height: 16rem;
+    width: 16rem;
+    border-radius: 999px;
+}
+
+.scheduler__img {
+    border: 10px solid var(--secondaryColor);
+    border-radius: 999px;
+}
+
+.scheduler-body {
+    background-color: var(--tertiaryColor);
+}
+
+.scheduler-page {
+    
+    background-image: url(../Assets/Background/Background\ 4.png);
+    margin: 0 5vw;
+    box-sizing: border-box;
+}
+
+.scheduler-page__title {
+    background-color: #A8D5BA;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding:1.5em 0;
+    margin-bottom: 1em;
+}
+
+.scheduler-section {
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.scheduler-section__titles {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.scheduler-section__select-service {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-service__options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+
+.option_1, .option_2 {
+    background-color: gray;
+    color: var(--bg-color-main);
+    width: 6em;
+    padding: 1em 0;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+.option_1:hover, .option_2:hover {
+    opacity: 1;
+}
+
+
+.select-service__checkbox1, .select-service__checkbox2 {
+    display: none;
+}
+
+.select-service__checkbox1:checked ~ .container__rotulo > .option_1 {
+    background-color: var(--tertiaryColor-hover);
+    opacity: 1;
+}
+
+.select-service__checkbox2:checked ~ .container__rotulo > .option_2 {
+    background-color: var(--tertiaryColor-hover);
+    opacity: 1;
+}
+
+.select-service__check {
+    margin: 2em 0 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 600;
+}
+
+.special-needs-text {
+    background-color: var(--bg-color-5);
+    font-size: 18px;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    padding: 1em;
+    width: 100%;
+    height: 5rem;
+    resize: none;  
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.check-button:checked ~ .special-needs-text {
+    background-color: var(--tertiaryColor);
+    opacity: 100%;
+    cursor: auto;
+}
+
+.check-button {
+    height: 20px;
+    width: 20px;
+    font-weight: 700;
+}
+
+.scheduler-section__avaliable {
+    text-align: center;
+}
+
+.scheduler-section__calendar {
+    text-align: center;
+}
+
+.timetable__title {
+    background-color: var(--tertiaryColor);
+    color: var(--bg-font-color1);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 1em 0;
+    padding: 0.5em;
+}
+
+.timetable__grid {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding-bottom: 3em;
+}
+
+.grid__option {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.option__text {
+    text-decoration: none;
+    color: var(--bg-color-main);
+    font-size: 20px;
+    padding: 1em;
+}
+
+.TimeChecked {
+    background-color: #A8D5BA;
+}
+
+.TimeNotChecked {
+    background-color: var(--bg-color-10);
+}
+
+.scheduler__show-reservations {
+    display: flex;
+    flex-direction: column;
+}
+
+.reservations-title {
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.reservations {
+    display: flex;
+    gap: 1em;
+}
+
+.option-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.timetable-option {
+    text-align: center;
+    background-color: gray;
+    height: 8rem;
+    width: 10rem;
+}
+
+.scheduled {
+    background-color: #A8D5BA;
+}
+
+.canceled {
+    background-color: salmon;
+}
+
+.time {
+    padding-top: 1em;
+}
+
+.name {
+    padding-bottom: 2em;
+}
+
+.icon-scheduled {
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scheduler-main-title {
+    margin: 0 auto;
+    padding: 1rem 0;
+    font-size: 48px;
+    text-align: center;
+    width: 30%;
+    background-color: var(--tertiaryColor);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}

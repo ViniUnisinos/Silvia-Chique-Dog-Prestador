@@ -1,0 +1,50 @@
+.article {
+    background-color: var(--tertiaryColor);
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: var(--tertiaryColor-dark);
+    margin: 0 auto;
+    width: 70%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10vw;
+    color: var(--font-color-2);
+}
+
+.article__title {
+    text-align: center;
+    margin:5rem auto 0 0;
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--font-color-2);
+}
+
+.article__image {
+    background-image: url(../Assets/Article/Pulgas.jpg);
+    background-size: 100%;
+    border: 5px solid black;
+    height: 25rem;
+    margin: 5em 10vw;
+}
+
+.article__subtitle {
+    font-size: 28px;
+    color: var(--font-color-2);
+    font-weight: 550;
+    margin: 1.5rem 0;
+}
+
+.article__text {
+    font-size: 28px;
+    color: var(--font-color-2);
+}
+
+.end {
+    margin: 1.5rem 0 10rem 0;
+}

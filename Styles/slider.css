@@ -1,0 +1,67 @@
+.swiper-slide {
+    display: flex;
+    align-items: end;
+    gap: 2em;
+    padding: 10em 0 0em 0;
+    height: 20rem;
+}
+
+.slide_1 {
+    background-image: url(../Assets/Higiene.png);
+    background-position-x: center;
+    background-position-y: 80%;
+}
+
+.slide_2 {
+    background-image: url(../Assets/PerguntasFrequentes.png);
+    background-position-x: center;
+    background-position-y: 60%;
+}
+
+.slide_3 {
+    background-image: url(../Assets/Articles/SaudeBucal.png);
+    background-position-x: center;
+    background-position-y: 60%;
+    background-size: 100%;
+}
+
+.slide_4 {
+    background-image: url(../Assets/Articles/Publi.png);
+    background-position-x: center;
+    background-position-y: 60%;
+    background-size: 100%;
+}
+
+.slide_5 {
+    background-image: url(../Assets/QuemSomos.png);
+    background-position-x: center;
+    background-position-y: 30%;
+}
+
+.slide__link {
+    text-decoration: none;
+    
+}
+
+.slide__titulo {
+    font-size: 32px;
+    color: var(--font-color-2);
+    padding: 0 20px 5px 20px;
+}
+
+.slide__texto {
+    background: rgba(0, 0, 0, 0.4);
+    color: var(--font-color-2);
+    padding: 2em 20px;
+    font-size: 20px;
+}
+
+.slide__publi {
+    background: rgba(0, 0, 0, 0.4);
+    color: var(--font-color-2);
+    padding: 1em 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+}

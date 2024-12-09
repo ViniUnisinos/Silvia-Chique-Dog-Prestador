@@ -1,0 +1,22 @@
+.about-us {
+    background-image: url(../Assets/Background/Background\ 2.png);
+    padding: 5em 5em;
+}
+
+.about-us__content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
+    margin: 0 auto;
+}
+
+.about-us__title {
+    font-size: 48px;
+    font-family: var(--titles-font);
+}
+
+.about-us__text {
+    font-size: 42px;
+}

@@ -1,0 +1,23 @@
+
+.header {
+    background-color: var(--secondaryColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+.header__title {
+    font-family: var(--titles-font);
+    color: var(--font-color-2);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.icon-solid {
+    padding: 8px;
+    background-color: var(--font-color-1);
+    color: var(--font-color-2);
+    border-radius: 999px;
+}
